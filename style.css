@@ -22,6 +22,11 @@ Import font from Google Fonts
 
 
 /* text */
+
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: var(--font-primary);
 	height: 100vh;
