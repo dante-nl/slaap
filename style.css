@@ -61,15 +61,25 @@ a.source {
 }
 
 .main {
-	margin-left: 5vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
 }
 
 .mobile .main {
 	margin-left: 1vw;
+	margin-right: 1vw;
 }
 
 strong,b {
 	font-weight: bold;
+}
+
+.gap {
+	height: 5%;
+}
+
+.mobile .gap {
+	display: none;
 }
 /** Gradient animation */
 .opening {
